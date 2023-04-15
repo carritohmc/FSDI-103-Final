@@ -1,0 +1,88 @@
+:root{
+    --mainBack:#FECD45;
+    --borderColor:#0e2455;
+    --lightBack:#fff1cb;
+    --textColor:#0e2455;
+
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: var(--mainBack);
+    color: rgb(32, 32, 32);
+    width: 51%;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    border-color: rgb(194, 189, 240);
+    border-color: #0e2455;
+    border-width: 3px;
+    border-style: solid;
+
+}
+
+main{
+   
+    color: #0e2455;
+    width: 51%;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+    background-color: #fff1cb;
+    border-radius: 6px;
+    border-style: solid;
+
+
+}
+
+header input{
+background-color: var(--lightBack);
+width: 20%;
+text-align: center;
+
+
+}
+
+header{
+    padding: 15px 0;
+}
+
+main h2{
+    border-color: #0e2455;
+    border-width: 2px; 
+    padding-left: 2%; 
+    background-color: var(--mainBack);
+    border-top-style: solid;
+    border-bottom-style: solid;
+
+}
+
+.taskAndList{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+
+ 
+}
+
+.onlyTask{
+    display: flex;    
+    background-color: var(--mainBack);
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 143%;
+    font-weight: 600;
+    border-radius: 1%;   
+    
+}
+
+.onlyList{
+    padding-right: 25%; 
+
+}
+

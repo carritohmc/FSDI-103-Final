@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>To Do App</title>
+</head>
+<body>
+    
+    <header>
+        <h1>My Todo App</h1>
+
+        <input type="text" id="txtTask" placeholder="Add a new task" value="" > 
+        <button onclick="addTask()">Add a new task</button>
+ 
+    </header>
+    <main>
+        <h2>Todo List</h2>
+        <div class="taskAndList"> <!-- opening Task and list div--> 
+            <div class="onlyTask">
+                    <h3 id="infoHeading"></h3>
+                </div>
+
+
+            <div class="onlyList">
+                <ul id="List">
+                </ul>       
+                <ol ud="moreData"> </ol>         
+            </div>
+
+        </div><!-- closing Task and list div--> 
+
+
+
+
+    </main>
+
+    <script src="scripts/app.js"> </script>
+</body>
+</html>
+
+
